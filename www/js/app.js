@@ -36,4 +36,9 @@ const buttons = [
 
 const buttonsContainer = document.getElementById("buttons");
 buttons.forEach(button => buttonsContainer.appendChild(button));
-//awesome!
+
+// Set the current year dynamically
+const currentYearElement = document.getElementById("currentYear");
+if (currentYearElement) {
+    currentYearElement.textContent = new Date().getFullYear();
+}
