@@ -5,3 +5,4 @@ const buttons = [
     createButton("Bravo", "assets/bravo.mp3")
 ];
 document.getElementById("buttons").innerHTML = buttons.join(' ');
+//awesome!
