@@ -107,6 +107,9 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: clamp(0.8rem, 2vw, 1rem);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
